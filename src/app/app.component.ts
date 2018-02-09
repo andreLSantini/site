@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  color = 'primary';
+  mode = 'determinate';
+  value = 50;
+  bufferValue = 75;
 }
